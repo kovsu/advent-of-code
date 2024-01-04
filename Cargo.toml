@@ -1,0 +1,9 @@
+[package]
+name = "aoc"
+authors = ["Konv Suu <2583695112@qq.com>"]
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+itertools="0.12.0"
+aoc-cli = "0.12.0"
