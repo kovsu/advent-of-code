@@ -1,20 +1,12 @@
 # advent-of-code (Rust)
 
+<img align="center" src="public/aoc.png" alt="aoc" />
+
 ## Usage
 
 ```bash
 # Create the scaffolding for a new day (must run before download.sh)
-./scripts/scaffold.sh <year> <day>
-
-# Download the input for a given day
-./scripts/download-input.sh <year> <day> 
-
-# Submit the answer for a given day's part
-./scripts/submit.sh <year> <day> <part> <answer>
-
-# Calender for the a given year
-./scripts/calender.sh <year>
-
+./run.sh <year> <day>
 ```
 
 ## Thanks
