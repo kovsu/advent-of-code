@@ -7,7 +7,7 @@ pub fn read_file(folder: &str, year: i32, day: u8) -> String {
     let filepath = cwd
         .join("src")
         .join(folder)
-        .join(format!("{}/day-{:02}.txt", year, day));
+        .join(format!("{}/day_{:02}.txt", year, day));
 
     let f = fs::read_to_string(filepath);
     f.expect("could not open input file")

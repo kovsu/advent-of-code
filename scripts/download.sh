@@ -31,7 +31,6 @@ tmp_file_path="$tmp_dir/input";
 
 puzzle_path="src/puzzles/$year/day_$day_padded.md";
 
-
 session=".adventofcode.session";
 
 aoc download --year $year --day $day --input-file $tmp_file_path --session-file $session --puzzle-file $puzzle_path --overwrite;

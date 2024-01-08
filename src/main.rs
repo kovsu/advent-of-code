@@ -48,6 +48,8 @@ fn main() {
       2021 => {
           match day {
              1 => solve_day!(year_2021::day_01, &input),
+             2 => solve_day!(year_2021::day_02, &input),
+             3 => solve_day!(year_2021::day_03, &input),
             _ => println!("2021 {} not solved yet", day),
           }
       },
